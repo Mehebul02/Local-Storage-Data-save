@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping-card</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="text-center mt-20 space-x-14">
+    <input id="product-name" type="text" placeholder="product" class="input input-bordered w-full max-w-xs" >
+    <input id="product-quantity" type="number" placeholder="quantity" class="input input-bordered w-full max-w-xs" >
+    <!-- <input id="product-color" type="text" placeholder="color" class="input input-bordered w-full max-w-xs" > -->
+    <button onclick="addProduct()" class="btn bg-purple-900 text-white">Add Product</button>
+    <div id="table_data" class="overflow-x-auto">
+        <tr>
+            <th></th>
+            <th>Name</th>
+            <th>Job</th>
+            <th>Favorite Color</th>
+          </tr>
+    </div>
+    <script src="card.js"></script>
+</body>
+</html>
